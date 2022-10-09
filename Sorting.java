@@ -1,11 +1,6 @@
-/*
-* ID: 6388019
-* FullName:Sorawanan Jeamjantarasakhon
-* Section: 1
-* */
 import java.util.*;
 
-public class MySorting {
+public class Sorting {
 
     public static  <T> void splitData(List<T> a, T pivot, List<T> le, List<T> eq, List<T> ge, Comparator<T> cc){
         /*for (Integer i:a ){
